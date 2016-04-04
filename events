@@ -104,7 +104,7 @@
                         val.store_name = store_details.name
                         val.alt_event_image_url = getImageURL(store_details.store_front_url);    
                     } else {
-                        val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/54f605386e6f6412de000000/e18b7cb654e0d378e2b630d744f86974/milton.png"
+                        val.alt_promo_image_url = "http://assets.codecloudapp.com/sites/56fc05856e6f6409bd010000/image/jpeg/undefined/JMblacklogo.jpg"
                     }
                     
                     } else {
