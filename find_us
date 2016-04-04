@@ -14,10 +14,11 @@
         <div class="left_column">
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11527.205763069447!2d-79.5153145!3d43.7562199!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1459798343936" style="border:0" title="Map">Directions</iframe>
              <h2>Driving from Toronto:</h2>
-            <p>Take highway 401 west.  Take the James Snow Parkway exit. Turn left (south) on James Snow Parkway.  Make a right on Main Street.  We are located on the left side of Main Street on the corner of Ontario Street South (highway 25).</p>
+            <p>Getting Here is Simple
+We're easy to drive to and there's plenty of free parking when you get here! We’re located at the corner of Jane and Finch, which is conveniently close to highway 400.</p>
             
-            <h2>Driving from London:</h2>
-            <p>Take highway 401 east and exit at highway 25.  Turn right (south) on highway 25.  Turn left on Steeles Avenue.  Turn right on Ontario Street South (highway 25).</p>
+            <h2>Public Transit</h2>
+            <p>Jane Finch Mall is serviced by TTC  bus service. Many main routes stop at the mall. Visit <a href="ttc.com" target="_blank">ttc.com</a> for bus maps and schedules.</p>
         </div>
         <div class="right_column">
             <p class="right_column_header">centre information</p>
