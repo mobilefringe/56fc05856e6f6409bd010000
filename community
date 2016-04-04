@@ -405,7 +405,7 @@
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "ardalan@mobilefringe.com", 
+                    'send_to': "OJohnson@BentallKennedy.com", 
                     'subject': "Jane Finch Mall Community Group Request", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
