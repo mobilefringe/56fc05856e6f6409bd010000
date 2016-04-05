@@ -28,35 +28,48 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                              <br>
-                    <p class="directory_content"><strong>Stuart Hathaway</strong> 
-                    <br>General Manager
-                    <br>905-878-3900, ext. 202
-                    <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
+                    <p class="directory_content"><strong>Karen Beaton</strong> 
+                    <br>Property Manager
+                    <br>416-635-5286 ext. 223
+                    <br><a href="mailto:kbeaton@bentallkennedy.com">kbeaton@bentallkennedy.com</a></p>
                     <br>
-                    <p class="directory_content"><strong>Caitlin MacDonald</strong> 
+                    <p class="directory_content"><strong>Megan McGowan</strong> 
                    
                     <br>Manager, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:cemacdonald@bentallkennedy.com">cemacdonald@bentallkennedy.com</a>
+                    <br>905-625-6106
+                    <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
                      <br>*Sales Representative
                     </p>
                     <br>
-                       <p class="directory_content"><strong>Jenifer Sim</strong> 
-                    <br>Marketing Director
-                    <br>905-878-3900, ext. 204
-                    <br><a href="mailto:jsim@bentallkennedy.com">jsim@bentallkennedy.com</a></p>
+                       <p class="directory_content"><strong>O’Neil Johnson</strong> 
+                    <br>Marketing Manager
+                    <br>416-635-5286 ext. 225
+                    <br><a href="mailto:ojohnson@arctururealty.com">ojohnson@arctururealty.com</a></p>
                     <br>
-                   <p class="directory_content"><strong>Michael Warren</strong> 
+                   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
                    <br>Operations Supervisor
-                   <br>905-878-3900, ext. 203
-                   <br><a href="mailto:mwarren@bentallkennedy.com" target="_blank">mwarren@bentallkennedy.com</a></p>
+                   <br>416-635-5286 ext. 222
+                   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
                    <br>
                    
-                   <p class="directory_content"><strong>Kyle Webb</strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>905-878-3900, ext. 200
-                   <br><a href="mailto:kwebb@bentallkennedy.com">kwebb@bentallkennedy.com</a></p>
+                   <p class="directory_content"><strong>Anna Rummo</strong> 
+                   <br>Property Administrator
+                   <br>416-635-5286 ext. 0
+                   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
+                   <br>
                    
+                   <p class="directory_content"><strong>Manny Yemam</strong> 
+                   <br>Mall Services Coordinator
+                   <br>416-635-5286 ext. 231
+
+                   <br><a href="mailto:ayemam@arctururealty.com">ayemam@arctururealty.com</a></p>
+                    <br>
+                   
+                   <p class="directory_content"><strong>Security</strong> 
+                   
+                   <br>416-635-5286 ext. 2
+
+                   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
                     </script>
                 </div>
             </div>
@@ -124,34 +137,48 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                        <br>
-                    <p class="directory_content"><strong>Stuart Hathaway</strong> 
-                    <br>General Manager
-                    <br>905-878-3900, ext. 202
-                    <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
+                     <p class="directory_content"><strong>Karen Beaton</strong> 
+                    <br>Property Manager
+                    <br>416-635-5286 ext. 223
+                    <br><a href="mailto:kbeaton@bentallkennedy.com">kbeaton@bentallkennedy.com</a></p>
                     <br>
+                    <p class="directory_content"><strong>Megan McGowan</strong> 
                    
-                    <p class="directory_content"><strong>Caitlin MacDonald</strong> 
                     <br>Manager, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:cemacdonald@bentallkennedy.com">cemacdonald@bentallkennedy.com</a>
+                    <br>905-625-6106
+                    <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
                      <br>*Sales Representative
                     </p>
                     <br>
-                       <p class="directory_content"><strong>Jenifer Sim</strong> 
-                    <br>Marketing Director
-                    <br>905-878-3900, ext. 204
-                    <br><a href="mailto:jsim@bentallkennedy.com">jsim@bentallkennedy.com</a></p>
+                       <p class="directory_content"><strong>O’Neil Johnson</strong> 
+                    <br>Marketing Manager
+                    <br>416-635-5286 ext. 225
+                    <br><a href="mailto:ojohnson@arctururealty.com">ojohnson@arctururealty.com</a></p>
                     <br>
-                   <p class="directory_content"><strong>Michael Warren</strong> 
+                   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
                    <br>Operations Supervisor
-                   <br>905-878-3900, ext. 203
-                   <br><a href="mailto:mwarren@bentallkennedy.com" target="_blank">mwarren@bentallkennedy.com</a></p>
+                   <br>416-635-5286 ext. 222
+                   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
                    <br>
                    
-                   <p class="directory_content"><strong>Kyle Webb</strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>905-878-3900, ext. 200
-                   <br><a href="mailto:kwebb@bentallkennedy.com">kwebb@bentallkennedy.com</a></p>
+                   <p class="directory_content"><strong>Anna Rummo</strong> 
+                   <br>Property Administrator
+                   <br>416-635-5286 ext. 0
+                   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
+                   <br>
+                   
+                   <p class="directory_content"><strong>Manny Yemam</strong> 
+                   <br>Mall Services Coordinator
+                   <br>416-635-5286 ext. 231
+
+                   <br><a href="mailto:ayemam@arctururealty.com">ayemam@arctururealty.com</a></p>
+                    <br>
+                   
+                   <p class="directory_content"><strong>Security</strong> 
+                   
+                   <br>416-635-5286 ext. 2
+
+                   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
                   
                    
                 </script>
