@@ -296,7 +296,13 @@
                     </ul>
                </div>
           </div>
-          <div id="social_media_wrapper">  </div>
+          <div id="social_media_wrapper">
+          <a href="https://www.facebook.com/janefinchmall" target="_blank"><i class="fa fa-facebook"></i><p style="display:none">facebook</p></a>
+
+
+<a href="http://instagram.com/janefinchmall" target="_blank"><i class="fa fa-instagram"></i><p style="display:none">instagram</p></a>
+              
+          </div>
           <a href="http://bentallkennedy.com/" target="_blank"><img class="property_logo" alt="logo" src="http://assets.codecloudapp.com/sites/56fc05856e6f6409bd010000/image/png/undefined/bental-logo2.png"/></a>
      </div>
 </header>
