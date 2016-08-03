@@ -170,10 +170,10 @@
                                     var s = check_email();
                                     if (s == true){
                                         var email = $("#email").val();
-                                        $('input[name="cm-iljuii-iljuii"]').attr('value',email);
+                                        $('input[name="cm-ktirui-ktirui"]').attr('value',email);
                                         console.log($("#subForm").serialize())
                                          $.getJSON(
-                                            "http://mobilefringe.createsend.com/t/d/s/iljuii/?callback=?",
+                                            "http://mobilefringe.createsend.com/t/d/s/ktirui/?callback=?",
                                           $("#subForm").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
