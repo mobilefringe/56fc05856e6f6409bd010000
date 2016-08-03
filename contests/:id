@@ -220,7 +220,7 @@
             $('input[name="cm-name"]').attr('value',name);
             $('input[name="cm-ktirui-ktirui"]').attr('value',email);
             $.getJSON(
-                "http://mobilefringe.createsend.com/t/d/s/ktiyb/?callback=?",
+                "http://mobilefringe.createsend.com/t/d/s/ktirui//?callback=?",
               $("#cm_email").serialize(),
                 function (data) {
                     if (data.Status === 400) {
