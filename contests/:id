@@ -147,8 +147,8 @@
     
     
 
-    $(document).ready(function(e) {
-        function renderAll (e){
+    $(document).ready(function(event) {
+        function renderAll (event){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
@@ -161,7 +161,7 @@
                    $("#birthday").mask("9999/99/99");
                 });
                 $('#contest_form').submit(function (e) {
-                    e.preventDefault();
+                    event.preventDefault();
                     if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                         if ($("#agree_terms").prop("checked") == true){
                             var e = verify_required_fields();
@@ -176,7 +176,7 @@
                                           $("#subForm").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
-                                                    e.preventDefault();
+                                                    event.preventDefault();
                                                     alert("Please try again later.");
                                                 } else { // 200
                                                     data = $("#contest_form").serialize();
