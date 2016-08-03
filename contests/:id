@@ -178,6 +178,7 @@
                                             function (data) {
                                                 if (data.Status === 400) {
                                                     event.preventDefault();
+                                                    console.log(data)
                                                     alert("Please try again later.");
                                                 } else { // 200
                                                     data = $("#contest_form").serialize();
