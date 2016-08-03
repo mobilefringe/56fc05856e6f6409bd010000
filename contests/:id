@@ -202,19 +202,16 @@
                             alert("Please agree to the terms and conditions before submitting!")
                         }
                     }
-                        else
-                        {
-                            alert("Please Enter Correct Verification Number");
-                            randomgen();
-                        }
+                    else{
+                        alert("Please Enter Correct Verification Number");
+                        randomgen();
+                    }
                     
-                    });
-                } else {
-                    $("#loading_screen").hide();
-                    $("#404_msg").fadeIn( "fast");
-                }
-            
-            
+                });
+            } else {
+                $("#loading_screen").hide();
+                $("#404_msg").fadeIn( "fast");
+            }
         }
         
         function submit_contest(data) {
