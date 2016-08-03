@@ -218,7 +218,7 @@
             var email = $("#email").val();
             var name = $("#first_name").val() + " " + $("#last_name").val();
             $('input[name="cm-name"]').attr('value',name);
-            $('input[name="cm-ktiyb-ktiyb"]').attr('value',email);
+            $('input[name="cm-ktirui-ktirui"]').attr('value',email);
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/ktiyb/?callback=?",
               $("#cm_email").serialize(),
