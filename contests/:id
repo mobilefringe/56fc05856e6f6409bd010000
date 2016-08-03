@@ -171,7 +171,6 @@
                                     if (s == true){
                                         var email = $("#email").val();
                                         $('input[name="cm-ktirui-ktirui"]').attr('value',email);
-                                        console.log($("#subForm").serialize())
                                          $.getJSON(
                                             "http://mobilefringe.createsend.com/t/d/s/ktirui/?callback=?",
                                           $("#subForm").serialize(),
