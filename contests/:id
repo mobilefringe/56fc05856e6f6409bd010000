@@ -147,8 +147,8 @@
     
     
 
-    $(document).ready(function() {
-        function renderAll (){
+    $(document).ready(function(e) {
+        function renderAll (e){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
