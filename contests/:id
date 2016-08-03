@@ -160,7 +160,7 @@
                 jQuery(function($){
                    $("#birthday").mask("9999/99/99");
                 });
-                $('#contest_form').submit(function (e) {
+                $('#contest_form').submit(function (event) {
                     event.preventDefault();
                     if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                         if ($("#agree_terms").prop("checked") == true){
