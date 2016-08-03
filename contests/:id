@@ -229,7 +229,6 @@
               $("#cm_email").serialize(),
                 function (data) {
                     if (data.Status === 400) {
-                        e.preventDefault();
                         alert("Please try again later.");
                     }
             });  
