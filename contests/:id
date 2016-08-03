@@ -176,8 +176,6 @@
                                           $("#subForm").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
-                                                    event.preventDefault();
-                                                    alert(data.Message);
                                                 } else { // 200
                                                     data = $("#contest_form").serialize();
                                                     submit_contest(data);
