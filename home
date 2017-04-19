@@ -139,6 +139,7 @@
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net'+ popup.photo_url);
                     $('.custom_text').text(popup.description1);
                     $('.p_name').text(popup.name);
+                    $('.custom_popup_link').css('visibility', 'hidden');
                 }
                 else{
                     $('.popup_form_div').css('visibility', 'hidden');
