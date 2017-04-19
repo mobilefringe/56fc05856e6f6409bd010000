@@ -8,8 +8,8 @@
         text-align:left;
     }
 </style>
-<a href="" target="_self" class="custom_popup_link">
-    <div class="custom_popup">
+<div class="custom_popup">
+    <a href="" target="_self" class="custom_popup_link">
         <div class="popup_form_div">
             <h2 class="pop_up_header p_name">Join Our eClub</h2>
             <img class="text-left width_100 hide_desk custom_img" src="" />
@@ -58,9 +58,10 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <span class="close_popup">CLOSE</span>
-    </div>
-</a>
+    </a>
+    <span class="close_popup">CLOSE</span>
+</div>
+
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
           <ul class="slides" id="home_banner">
