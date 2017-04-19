@@ -132,9 +132,7 @@
                 $('.close_popup, .custom_backdrop').click(function(){
                     $(".modal-backdrop").remove();
     		        $(".custom_popup").remove();
-                })
-                
-                
+                });
                 if(isEmpty(popup.contest) == false){
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net'+ popup.photo_url);
                     $('.custom_text').text(popup.description1);
@@ -160,7 +158,6 @@
             }
         }
        
-                
         function renderPageData (){
             renderPopup();
             var repoList = getRepoList();
