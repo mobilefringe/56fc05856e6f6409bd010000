@@ -8,6 +8,7 @@
         text-align:left;
     }
 </style>
+<a href="">
 <div class="custom_popup">
     <div class="popup_form_div">
         <h2 class="pop_up_header p_name">Join Our eClub</h2>
@@ -59,6 +60,7 @@
     </div>
     <span class="close_popup">CLOSE</span>
 </div>
+</a>
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
           <ul class="slides" id="home_banner">
