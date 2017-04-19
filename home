@@ -8,7 +8,7 @@
         text-align:left;
     }
 </style>
-<a href="" target="_self" class="popup_link">
+<a href="" target="_self" class="custom_popup_link">
     <div class="custom_popup">
         <div class="popup_form_div">
             <h2 class="pop_up_header p_name">Join Our eClub</h2>
