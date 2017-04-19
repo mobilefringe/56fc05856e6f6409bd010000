@@ -142,7 +142,7 @@
                 else{
                     $('.popup_form_div').css('visibility', 'hidden');
                     $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
-                    $('.custom_popup_link').attr('src', '//janefinchmall.com' +popup.photo_link);
+                    $('.custom_popup_link').attr('href', '//janefinchmall.com' +popup.photo_link);
                 }
                 $('#form_popup').submit(function(){
                     $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
