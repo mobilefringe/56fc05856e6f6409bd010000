@@ -205,6 +205,7 @@ background-color: #FFFFFF ;
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
+            console.log(store_details)
             if (store_details.store_hours != null){
                 $("#hours_title").show();
             } 
