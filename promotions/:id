@@ -111,7 +111,7 @@
                         val.alt_promo_image_url = store_front;
                 
                         if(store_front == null) {
-                            val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/dcd66cb0efbccf1a9dc76822e0b9da23/logo_10dundas.png"
+                            val.alt_promo_image_url = "//codecloud.cdn.speedyrails.net/sites/57f7bb6f6e6f647835430000/image/jpeg/undefined/JMblacklogo.jpg"
                         }
                     }
     
