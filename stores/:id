@@ -364,7 +364,7 @@ background-color: #FFFFFF ;
                         if (val.description.length > 110) {
                            val.description =  val.description.substring(0,100)+'...';
                         } 
-                        if ((val.promo_image_url).indexOf('missing.png') > -1){
+                        if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
