@@ -12,7 +12,6 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <!--<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11527.205763069447!2d-79.5153145!3d43.7562199!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1459798343936" style="border:0" title="Map">Directions</iframe>-->
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.815571672236!2d-79.51777573410016!3d43.75592647911784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b31d2aab4bfe7%3A0x3d0107cd3e02145c!2sJane+Finch+Mall!5e0!3m2!1sen!2sca!4v1504643093028" style="border:0" title="Map">Directions</iframe>
             
             <p>Getting Here is Simple
