@@ -379,7 +379,7 @@ background-color: #FFFFFF ;
                             val.alt_promo_image_url = val.promo_image_url_abs;
                         } 
                         if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
-                            val.alt_promo_image_url = store_details.store_front_url_abs;
+                            val.alt_promo_image_url = getImageURL(store_details.store_front_url);
                         }
                         $("#promo_header").show();   
                         $("#mobile_promo_header").show();  
