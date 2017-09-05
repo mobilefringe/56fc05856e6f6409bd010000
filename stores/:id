@@ -350,7 +350,7 @@ background-color: #FFFFFF ;
                     var rendered = Mustache.render(template_html,val);
                     item_rendered.push(rendered);
                 });
-            }else {
+            } else {
                 $.each( collection , function( key, val ) {
                     if (type == "promotions"){
                         var start = moment(val.start_date).tz(getPropertyTimeZone());
@@ -376,6 +376,7 @@ background-color: #FFFFFF ;
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
+                            console.log(store_details)
                             val.alt_promo_image_url = val.promo_image_url_abs;
                         } 
                         if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
@@ -400,33 +401,9 @@ background-color: #FFFFFF ;
             $(container).html(item_rendered.join(''));
             if (type == "store_details"){
                 if (collection.website != "" && collection.website != undefined){
-                        $("#store_website_link").show();
+                    $("#store_website_link").show();
                 }
             }
-            
-        }
-        
-        function convert_hour(d){
-            var h = addZero(d.getUTCHours());
-            var m = addZero(d.getUTCMinutes());
-            var s = addZero(d.getUTCSeconds());
-            if (h >= 12) {
-                if ( h != 12) {
-                    h = h - 12;    
-                }
-                
-                i = "PM"
-            } else {
-                i = "AM"
-            }
-            return h+":"+m+" "+i;
-        }
-        
-        function addZero(i) {
-            if (i < 10) {
-                i = "0" + i;
-            }
-            return i;
         }
     });
     
