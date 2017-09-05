@@ -205,6 +205,9 @@ background-color: #FFFFFF ;
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
+            if (store_details.store_hours != null){
+                $("#hours_title").show();
+            } 
             store_details.x_coordinate = store_details.x_coordinate - 17;
             store_details.y_coordinate = store_details.y_coordinate - 75;
 
