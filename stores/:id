@@ -141,7 +141,7 @@ background-color: #FFFFFF ;
                 </script>
             </div>
                             
-            <p class="right_column_header">Hours</p>
+            <p class="right_column_header" id="hours_title" style="display:none">Hours</p>
             <div id="store_hours_container">
                 <script id="store_hours_template" type="x-tmpl-mustache/text">
                     <li class="directory_content" style="list-style:none">{{h}}</li>
