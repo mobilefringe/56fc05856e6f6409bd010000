@@ -366,46 +366,35 @@
                         </script>{% endraw %}
                     
                         <ul class="list-group" >
-                            
                             <li>
-                            <a  class="close-search list-group-item" style="color:black;font-weight:bold">
-                                <small>
-                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
-                                </small>
-                            </a>
+                                <a  class="close-search list-group-item" style="color:black;font-weight:bold">
+                                    <small>
+                                        <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                    </small>
+                                </a>
                             </li>
                             <li>
-                            <div id="search_results_items" class="search-results-items" style="">
-                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
-                            </div>
+                                <div id="search_results_items" class="search-results-items" style="">
+                                <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                </div>
                             </li>
                             <li>
-                            <a  class="close-search list-group-item" style="">
-                                <small>
-                                    <span>Today's Hours </span>
-                                </small>
-                                <small class="pull-right" id="todays-hours-search">
-                                
-                                </small>
-                                <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
-                                    <span style="{{is_open_css}};">
-                                        {{open_time_localized}} - {{close_time_localized}}
-                                    </span>
-                                    <span style="{{is_closed_css}};">
-                                        Closed
-                                    </span>
-                                </script>{% endraw %}
-                            </a>
+                                <a  class="close-search list-group-item" style="">
+                                    <small>
+                                        <span>Today's Hours </span>
+                                    </small>
+                                    <small class="pull-right" id="todays-hours-search"></small>
+                                    <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
+                                        <span>{{hours}}</span>
+                                    </script>
+                                    {% endraw %}
+                                </a>
                             </li>
                         </ul>
                     </div>
-                 </div>
-                 
-                 
+                </div>
             </div>
         </div>
-        
-        
     </section>
     
     <section class="site-map-section">
@@ -508,9 +497,10 @@
             var propertyDetails = getPropertyDetails();
             renderPropertyLogo('#logo_template','#site_logo',propertyDetails);
             renderPropertyFooter('#footer_template','#footer_container',propertyDetails);
-            renderTodaysHours('#todays_hours_search_template','#todays-hours-search');
-            
+            var hours = getTodaysHours();
+            renderHomeHours('#todays-hours-search','#todays_hours_search_template', hours);
         }
+        
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
             var item_list = [];
             var item_rendered = [];
@@ -540,6 +530,26 @@
             $(footer_container).html(item_rendered.join(''));
         }
         
+        function renderHomeHours(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            item_list.push(collection);    
+            $.each( item_list , function( key, val ) {
+                if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                    val. hours = open_time.format("h:mm A") + " - " + close_time.format("h:mm A")
+                } else {
+                    val.hours = "Closed Today";
+                }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            $(container).html(item_rendered.join(''));
+        }
+
         // function getImageURL(existing_url){
         //     if(!existing_url ||  existing_url.indexOf('missing.png') > -1 || existing_url.length === 0){
         //         ////css-tricks.com/snippets/html/base64-encode-of-1x1px-transparent-gif/
