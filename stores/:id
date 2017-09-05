@@ -353,31 +353,33 @@ background-color: #FFFFFF ;
             }else {
                 $.each( collection , function( key, val ) {
                     if (type == "promotions"){
-                        // start = new Date (val.start_date + "T05:00:00Z");
-                        // end = new Date (val.end_date + "T05:00:00Z");
-                        // // start.setDate(start.getDate()+1);
-                        // // end.setDate(end.getDate()+1);
-                        // val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
-                        
                         var start = moment(val.start_date).tz(getPropertyTimeZone());
                         var end = moment(val.end_date).tz(getPropertyTimeZone());
                         if (start.format("DMY") == end.format("DMY")){
                         	val.dates = start.format("MMM D");
-                        }
-                        else {
+                        } else {
                         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
                         }
 
                         if (val.description.length > 110) {
                            val.description =  val.description.substring(0,100)+'...';
                         } 
+                        // if ((val.promo_image_url).indexOf('missing.png') > -1){
+                        //     var pathArray = window.location.pathname.split( '/' );
+                        //     var slug = pathArray[pathArray.length-1];
+                        //     var store_details = getStoreDetailsBySlug(slug);
+                        //     val.alt_promo_image_url = getImageURL(store_details.store_front_url);
+                        // } else {
+                        //   val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
+                        // }
                         if ((val.promo_image_url).indexOf('missing.png') > -1){
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
-                            val.alt_promo_image_url = getImageURL(store_details.store_front_url);
-                        } else {
-                           val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
+                            val.alt_promo_image_url = val.promo_image_url_abs;
+                        } 
+                        if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
+                            val.alt_promo_image_url = store_details.store_front_url_abs;
                         }
                         $("#promo_header").show();   
                         $("#mobile_promo_header").show();  
