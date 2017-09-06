@@ -125,7 +125,7 @@
             console.log(popup)
             if(popup != undefined){
                 // if($.cookie("popup_viewed") != "true"){
-                    // $.cookie("popup_viewed", "true", { expires: 1 });
+                    $.cookie("popup_viewed", "true", { expires: 1 });
                     $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                     $('.custom_popup').show()
                 // }
@@ -133,14 +133,12 @@
                     $(".modal-backdrop").remove();
     		        $(".custom_popup").remove();
                 });
-                if(isEmpty(popup.contest) == null){
-                    console.log("It's false")
+                if(isEmpty(popup.contest) == null{
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url);
                     $('.custom_text').text(popup.description1);
                     $('.p_name').text(popup.name);
                     $('.custom_popup_link').css('visibility', 'hidden');
                 } else {
-                    console.log("It's true")
                     $('.popup_form_div').css('visibility', 'hidden');
                     $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
                     $('.custom_popup_link').attr('href', '//janefinchmall.com' + popup.photo_link);
