@@ -134,11 +134,13 @@
     		        $(".custom_popup").remove();
                 });
                 if(isEmpty(popup.contest) == false){
+                    console.log("It's false")
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url);
                     $('.custom_text').text(popup.description1);
                     $('.p_name').text(popup.name);
                     $('.custom_popup_link').css('visibility', 'hidden');
                 } else {
+                    console.log("It's true")
                     $('.popup_form_div').css('visibility', 'hidden');
                     $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
                     $('.custom_popup_link').attr('href', '//janefinchmall.com' + popup.photo_link);
