@@ -133,7 +133,7 @@
                     $(".modal-backdrop").remove();
     		        $(".custom_popup").remove();
                 });
-                if(isEmpty(popup.contest) == false){
+                if(isEmpty(popup.contest) == null){
                     console.log("It's false")
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url);
                     $('.custom_text').text(popup.description1);
