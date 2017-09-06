@@ -136,6 +136,7 @@
                 if(isEmpty(popup.contest) == false){
                     console.log("It's false")
                     $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url);
+                    console.log(popup.photo_url)
                     $('.custom_text').text(popup.description1);
                     $('.p_name').text(popup.name);
                     $('.custom_popup_link').css('visibility', 'hidden');
