@@ -564,7 +564,8 @@
         
         //dynamically update the year
         var current_year = moment().year();
-        $("#current_year").text(current_year)
+        $("#current_year").text(current_year);
+        
         //real time search
         $('#search_input').keyup(function(e){
             showSearchResults();
