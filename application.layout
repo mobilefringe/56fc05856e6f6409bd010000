@@ -99,6 +99,17 @@
     </script>
     <style>
         /*custom styles*/
+        .bk_logo_svg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: inline-block;
+            width: 150px;
+            height: 60px;
+            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/590/original/BK_Logo_ProudlyManagedBy_White_final-01.svg?1517934408);
+            background-size: 100px 70px;
+            background-repeat: no-repeat;
+        }
         a .directory_content:hover{
             color: #999 !important;
         }
@@ -203,6 +214,9 @@
                 border:15px solid #bfbfbf !important;
                 border-top:none !important;
             }  
+              .bk_logo_svg {
+                display: none;
+            }
         }
     </style>
 </head>
