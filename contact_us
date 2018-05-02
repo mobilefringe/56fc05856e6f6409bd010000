@@ -28,10 +28,10 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                              <br>
-                    <p class="directory_content"><strong>Karen Beaton</strong> 
-                    <br>Property Manager
+                  <p class="directory_content"><strong>Dan Free</strong> 
+                    <br>General Manager
                     <br>416-635-5286 ext. 223
-                    <br><a href="mailto:kbeaton@bentallkennedy.com">kbeaton@bentallkennedy.com</a></p>
+                    <br><a href="mailto:dfree@bentallkennedy.com">kdfree@bentallkennedy.com</a></p>
                     <br>
                     <p class="directory_content"><strong>Megan McGowan</strong> 
                    
@@ -137,10 +137,10 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                        <br>
-                     <p class="directory_content"><strong>Karen Beaton</strong> 
-                    <br>Property Manager
+                     <p class="directory_content"><strong>Dan Free</strong> 
+                    <br>General Manager
                     <br>416-635-5286 ext. 223
-                    <br><a href="mailto:kbeaton@bentallkennedy.com">kbeaton@bentallkennedy.com</a></p>
+                    <br><a href="mailto:dfree@bentallkennedy.com">kdfree@bentallkennedy.com</a></p>
                     <br>
                     <p class="directory_content"><strong>Megan McGowan</strong> 
                    
