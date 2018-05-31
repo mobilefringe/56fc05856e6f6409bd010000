@@ -170,6 +170,9 @@
                     $('.custom_popup').fadeOut();
                 });
             }
+            else {
+                
+            }
         }
        
         function renderPageData (){
