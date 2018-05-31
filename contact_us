@@ -22,18 +22,7 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/57f7bb6f6e6f647835430000/image/jpeg/1459362056000/insidebanner1.jpg"/>
-            <div class="show_mobile">
-                <p class="right_column_header">centre information</p>
-                <div id="centre_info_container_mobile">
-                    <script id="centre_info_template_mobile" type="x-tmpl-mustache/text">
-                        <p class="directory_content">{{name}}</p>
-                        <p class="directory_content">{{address1}}</p>
-                        <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                        <br>
-                        <div id="mm_page_content_m" class="directory_content"></div>
-                    </script>
-                </div>
-            </div>
+            
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
               <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
               <span class="sr-only">Success</span>
