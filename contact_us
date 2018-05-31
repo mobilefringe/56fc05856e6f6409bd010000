@@ -90,7 +90,7 @@
                 
             </form>
         </div>
-        <div class="right_column">
+        <div class="right_column hidden_phone">
             <p class="right_column_header">centre information</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
