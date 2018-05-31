@@ -29,8 +29,50 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                        <br>
-                        <div id="mm_page_content_m" class="directory_content"></div>
+                             <br>
+                             <div id="mm_page_content_m" class="directory_content"></div>
+                //   <p class="directory_content"><strong>Dan Free</strong> 
+                //     <br>General Manager
+                //     <br>416-635-5286 ext. 223
+                //     <br><a href="mailto:dfree@bentallkennedy.com">kdfree@bentallkennedy.com</a></p>
+                //     <br>
+                //     <p class="directory_content"><strong>Megan McGowan</strong> 
+                   
+                //     <br>Manager, Leasing*
+                //     <br>905-625-6106
+                //     <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
+                //      <br>*Sales Representative
+                //     </p>
+                //     <br>
+                //       <p class="directory_content"><strong>O’Neil Johnson</strong> 
+                //     <br>Marketing Manager
+                //     <br>416-635-5286 ext. 225
+                //     <br><a href="mailto:ojohnson@bentallkennedy.com">ojohnson@bentallkennedy.com</a></p>
+                //     <br>
+                //   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
+                //   <br>Operations Supervisor
+                //   <br>416-635-5286 ext. 222
+                //   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
+                //   <br>
+                   
+                //   <p class="directory_content"><strong>Anna Rummo</strong> 
+                //   <br>Property Administrator
+                //   <br>416-635-5286 ext. 0
+                //   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
+                //   <br>
+                   
+                //   <p class="directory_content"><strong>Manny Yemam</strong> 
+                //   <br>Mall Services Coordinator
+                //   <br>416-635-5286 ext. 231
+
+                //   <br><a href="mailto:ayemam@bentallkennedy.com">ayemam@bentallkennedy.com</a></p>
+                //     <br>
+                   
+                //   <p class="directory_content"><strong>Security</strong> 
+                   
+                //   <br>416-635-5286 ext. 2
+
+                //   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
                     </script>
                 </div>
             </div>
@@ -99,6 +141,50 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                     <br>
                     <div id="mm_page_content" class="directory_content"></div>
+                //      <p class="directory_content"><strong>Dan Free</strong> 
+                //     <br>General Manager
+                //     <br>416-635-5286 ext. 223
+                //     <br><a href="mailto:dfree@bentallkennedy.com">kdfree@bentallkennedy.com</a></p>
+                //     <br>
+                //     <p class="directory_content"><strong>Megan McGowan</strong> 
+                   
+                //     <br>Manager, Leasing*
+                //     <br>905-625-6106
+                //     <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
+                //      <br>*Sales Representative
+                //     </p>
+                //     <br>
+                //       <p class="directory_content"><strong>O’Neil Johnson</strong> 
+                //     <br>Marketing Manager
+                //     <br>416-635-5286 ext. 225
+                //     <br><a href="mailto:ojohnson@bentallkennedy.com">ojohnson@bentallkennedy.com</a></p>
+                //     <br>
+                //   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
+                //   <br>Operations Supervisor
+                //   <br>416-635-5286 ext. 222
+                //   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
+                //   <br>
+                   
+                //   <p class="directory_content"><strong>Anna Rummo</strong> 
+                //   <br>Property Administrator
+                //   <br>416-635-5286 ext. 0
+                //   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
+                //   <br>
+                   
+                //   <p class="directory_content"><strong>Manny Yemam</strong> 
+                //   <br>Mall Services Coordinator
+                //   <br>416-635-5286 ext. 231
+
+                //   <br><a href="mailto:ayemam@bentallkennedy.com">ayemam@bentallkennedy.com</a></p>
+                //     <br>
+                   
+                //   <p class="directory_content"><strong>Security</strong> 
+                   
+                //   <br>416-635-5286 ext. 2
+
+                //   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
+                  
+                   
                 </script>
             </div>
             
