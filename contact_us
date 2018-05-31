@@ -245,6 +245,7 @@
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_title').html(data.title);
                 $('#mm_page_content').html(data.body);
+                $('#mm_page_content_m').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     console.log("Sorry. We cant find the page " + pages_json);
