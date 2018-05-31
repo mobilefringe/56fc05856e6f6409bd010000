@@ -15,13 +15,13 @@
 <div  id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li><a href="/contact_us">Contact Us</a> </li>
-        <li class="active">Jobs</li>
-    </ul>
+            <li><a href="/home">Home</a> </li>
+            <li><a href="/contact_us">Contact Us</a> </li>
+            <li class="active">Jobs</li>
+        </ul>
     </nav>
     <div class="page_banner">
-        Jobs
+        <h2>Jobs</h2>
     </div>
     <div class="inside_page_content">
         <div class="left_column">
