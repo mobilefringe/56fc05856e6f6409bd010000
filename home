@@ -140,7 +140,7 @@
                         $('.custom_text').text(popup.description1);
                     }
                     else {
-                        $('.custom_text').text('popup description not anailable');
+                        $('.custom_text').text('popup description not available');
                     }
                     $('.p_name').text(popup.name);
                 } else {
