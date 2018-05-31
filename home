@@ -140,7 +140,7 @@
                         $('.custom_text').text(popup.description1);
                     }
                     else {
-                        $('.custom_text').hide();
+                        $('.custom_text').text(popup.description1);
                     }
                     $('.p_name').text(popup.name);
                 } else {
