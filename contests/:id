@@ -65,7 +65,7 @@
         <h2>{{name}}</h2>
     </div>
     <div class="inside_page_content">
-        <img class="contest_image" src="{{alt_photo_url}}" />
+        <img class="contest_image" src="{{alt_photo_url}}" alt="{{name}}" />
      <br>
      <div class="contest_form_div">
            <p class="contest_description">{{description}}</p>
