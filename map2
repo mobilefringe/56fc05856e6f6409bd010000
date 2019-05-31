@@ -93,7 +93,7 @@
 
 
 
-    <label for="storelist_container" class="visibility_hidden">Select a Store</label>
+    <label style="display: none;" for="storelist_container">Select a Store</label>
     <select id="storelist_container" class="pull-left storelist_dd">
             <option disabled selected>Select a Store</option>
     </select>
