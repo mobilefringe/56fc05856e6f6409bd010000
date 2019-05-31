@@ -1,0 +1,141 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="/home">Home</a> </li>
+            <li class="active">Leasing</li>
+        </ul>
+    </nav>
+    <div class="page_banner">
+        <h2>leasing</h2>
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/2804b99a4a7c2ed210ec0bfcd23dfaee/Banner-Image-008_edited.jpg"/>
+            <p class="columns_2">
+                
+               <H2>Market Summary</H2>
+               <p>As Ontario’s fastest growing community, Milton’s population is more than 85,000 now, having doubled in the past
+five years, and is expected to more than redouble to 147,400 residents by 2021. Located just south of the 401 and
+immediately west of Mississauga on the western edge of the Greater Toronto Area, its population increase is primarily
+a result of new water and sewer capacity that has released a pent-up demand for housing. The Centre is the focal
+point of Milton’s central business district and its revitalization is a key priority of Milton’s town council.
+</p><p>Easy accessibility is one key to Milton’s tremendous growth and expanding economy. It is conveniently linked
+to all major Highways, including the 401 and 403, the Queen Elizabeth Highway and Highway 407, and a Go
+Station that provides service to over 2,200 riders each day.</p>
+               <br>
+               <strong>Total GLA:  </strong>299,172 square feet <br><br>
+               
+               
+              
+         
+          
+          <section class="article-text">
+               
+                        <br>
+                        <p style="margin-bottom:0"><strong>Major Tenants:</strong></p>
+                        <p>Target
+                            <br>Winners
+                            <br>Sport Check
+                            <br>Shoppers Drug Mart
+                            <br>Dollarama
+                            
+                           
+                        </p>    
+                        <br>
+                        <p><strong>Ancillary:  </strong>197,000 square feet (54 stores and services)</p>
+                   
+                        <table>
+                            <tr>
+                                <td style="width:215px"><strong>Demographics:</strong></td>
+                                <td style="width:100px">1km</td>
+                                <td style="width:100px">3km</td>
+                                 <td style="width:100px">5km</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Total Population:</strong></td>
+                                <td style="width:100px">9,273</td>
+                                <td style="width:100px">64,339</td>
+                                <td style="width:100px">84,372</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Total Households:</strong></td>
+                                <td style="width:100px">3,773</td>
+                                <td style="width:100px">21,684</td>
+                                <td style="width:100px">28,045</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Household Average Income:</strong></td>
+                                <td style="width:100px">$88,168</td>
+                                <td style="width:100px">$105,095</td>
+                                <td style="width:100px">$104,907</td>
+                            </tr>
+                        </table>
+                        <br>
+             
+                        <h3>For Leasing Inquiries Contact:</h3>
+                  
+                        <p>Wyatt, Dave
+                        <br>Senior Vice-President, Retail Leasing
+                        <br>905-271-5891
+                        <br><a href="mailto:dwyatt@bentallkennedy.com"><strong>dwyatt@bentallkennedy.com</strong></a>
+                        <br>
+                        <br>
+                        <a href="//kodekloud.s3.amazonaws.com/sites/54f5ed6c6e6f64534e000000/68c615776eaf94ee569f8e27bd57820a/Milton%20Site%20Plan%20January%202015.pdf" target="blank"><strong>Click to download site plan PDF</strong></a>
+                            
+                        </p>
+        </div>
+         
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+  
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
