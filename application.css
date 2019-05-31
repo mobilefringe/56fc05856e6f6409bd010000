@@ -361,14 +361,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*  display:none \9 !important;*/
 /*}*/
 
-/*.flex-control-paging li a.flex-active {*/
-/*    background-color: #18498d;*/
-/*    color: #fff;*/
-/*}*/
-
-.flex-control-paging li a {
-    background-color: #fff;
+.flex-control-paging li a.flex-active {
+    background-color: #000;
+    color: #fff;
 }
+
+/*.flex-control-paging li a {*/
+/*    background-color: #fff;*/
+/*}*/
 
 .slides{
     height:333px;
