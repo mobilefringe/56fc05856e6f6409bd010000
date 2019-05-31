@@ -170,9 +170,17 @@
         .flex-control-nav {
             background: #fff;
         }
-        .flex-control-paging li a {
-            color : #000;
+        /*.flex-control-paging li a {*/
+        /*    color : #000;*/
+        /*}*/
+        .flex-control-paging li a.flex-active {
+            background-color: #000;
+            color: #fff;
         }
+        
+        /*.flex-control-paging li a {*/
+        /*    background-color: #fff;*/
+        /*}*/
         /*social media box color*/
         #social_media_wrapper{
             background:#000;
