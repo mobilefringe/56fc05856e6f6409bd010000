@@ -194,6 +194,11 @@ td,
 th {
   padding: 0;
 }
+
+.visibility_hidden {
+    display: none;
+}
+
 .site-map-section{}
 .site-map-section a{
     color:white !important;
@@ -360,15 +365,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*.flex-control-nav, .flex-direction-nav{*/
 /*  display:none \9 !important;*/
 /*}*/
-
-.flex-control-paging li a.flex-active {
-    background-color: red;
-    color: #fff;
-}
-
-.flex-control-paging li a {
-    background-color: #fff;
-}
 
 .slides{
     height:333px;
