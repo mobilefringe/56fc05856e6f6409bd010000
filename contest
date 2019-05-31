@@ -50,7 +50,7 @@
         <h2>Enter To Win a $50 Gift Card!</h2>
     </div>
     <div class="inside_page_content">
-        <img class="contest_image" src="//kodekloud.s3.amazonaws.com/sites/54f605386e6f6412de000000/7867478e9350674c3101957d158063ed/MM  Contests - phone girls.png" />
+        <img class="contest_image" alt="{{name}}" src="//kodekloud.s3.amazonaws.com/sites/54f605386e6f6412de000000/7867478e9350674c3101957d158063ed/MM  Contests - phone girls.png" />
      <br>
      <div class="contest_form_div">
            <p class="contest_description">Join our mailing list to be automatically entered into our monthly draw for a $50.00 gift card to the Milton Mall store of your choice. Draws will take place on the 1st of every month and winners will be notified by email by the 5th of the month.</p>
