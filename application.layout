@@ -175,7 +175,7 @@
             color: #fff;
         }
         .flex-control-paging li a {
-            background-color: #000;
+            background-color: #fff;
         }
         /*social media box color*/
         #social_media_wrapper{
