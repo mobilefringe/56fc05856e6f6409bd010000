@@ -178,9 +178,9 @@
             color: #fff;
         }
         
-        /*.flex-control-paging li a {*/
-        /*    background-color: #fff;*/
-        /*}*/
+        .flex-control-paging li a {
+            background-color: #fff;
+        }
         /*social media box color*/
         #social_media_wrapper{
             background:#000;
