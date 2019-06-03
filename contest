@@ -118,8 +118,8 @@
             <br>
             <br>
             <span>
-                <label for="agree_terms" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/rules_regulations"><u>Rules and Regulations</u></a>. 
+                <label for="agree" style="display:none">Agree Terms</label>
+              <input type="checkbox" class="info_check" id="agree" required/>&nbsp;I agree to the <a href = "/rules_regulations"><u>Rules and Regulations</u></a>. 
             </span>
             <br>
             <br>
@@ -144,7 +144,7 @@
     
     $('#contest_form').submit(function (e) {
         if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
-            if ($("#agree_terms").prop("checked") == true){
+            if ($("#agree").prop("checked") == true){
                 var e = verify_required_fields();
                 if (e == true){
                     var name = $("#firstName").val() + " " + $("#lastName").val();
