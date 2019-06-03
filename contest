@@ -199,7 +199,7 @@
     
     
     function verify_required_fields (){
-        if ($("#firstName").val() != "" && $("#lastName").val() != "" && $("#fieldEmail").val() != "" && $("#fieldjrihe").val() != "" && $("#fieldjrihs").val() != "" && $("#fieldjrihg").val() != "") {
+        if ($("#firstName").val() != "" && $("#lastName").val() != "" && $("#email").val() != "" && $("#fieldjrihe").val() != "" && $("#fieldjrihs").val() != "" && $("#fieldjrihg").val() != "") {
             return true;
         } else {
             return false;
@@ -207,7 +207,7 @@
     }
     
     function check_email (){
-        var email = $("#fieldEmail").val();
+        var email = $("#email").val();
         if( !validateEmail(email)) {
             return false
         } else {
