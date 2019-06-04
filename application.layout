@@ -95,8 +95,8 @@
             });      
         });
         
-        // setEndPoint('//janefinch.mallmaverick.com/api/v4/janefinch/all.json');
-        setEndPoint('//eglinton.mallmaverick.com/api/v4/eglinton/all.json');
+        setEndPoint('//janefinch.mallmaverick.com/api/v4/janefinch/all.json');
+        
     </script>
     <style>
         /*custom styles*/
