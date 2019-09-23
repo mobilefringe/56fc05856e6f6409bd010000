@@ -1,21 +1,15 @@
-<style>
-    @media (max-width: 767px){
-        .right_column {
-            margin-top:50px;
-            display: block;
-        }
-    }
-</style>
 <div id="loading_screen">
     <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
 <div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Contact Us</li>
-    </ul>
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="/home">Home</a> </li>
+            <li class="active">Contact Us</li>
+        </ul>
+    </nav>
     <div class="page_banner">
-        Contact Us
+        <h2>Contact Us</h2>
     </div>
     <div class="inside_page_content">
         <div class="left_column">
@@ -27,49 +21,19 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                             <br>
-                  <p class="directory_content"><strong>Kim Mercier</strong> 
-                    <br>Property Manager
-                    <br>416-635-5286 Ext. 223
-                    <br><a href="mailto:kmercier@bentallkennedy.com">kmercier@bentallkennedy.com</a></p>
+                        <br>
+                    <p class="directory_content"><strong>Stuart Hathaway</strong> 
+                    <br>General Manager
+                    <br>(905) 878-3900 ext. 202
+                    <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
                     <br>
-                    <p class="directory_content"><strong>Megan McGowan</strong> 
-                   
-                    <br>Manager, Leasing*
-                    <br>905-625-6106
-                    <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
-                     <br>*Sales Representative
-                    </p>
-                    <br>
-                       <p class="directory_content"><strong>O’Neil Johnson</strong> 
-                    <br>Marketing Manager
-                    <br>416-635-5286 ext. 225
-                    <br><a href="mailto:ojohnson@bentallkennedy.com">ojohnson@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
-                   <br>Operations Supervisor
-                   <br>416-635-5286 ext. 222
-                   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
+                   p class="directory_content"><strong>Ryan Mitz </strong> 
+                   <br>Vice President, Commercial Leasing and Sales
                    <br>
-                   
-                   <p class="directory_content"><strong>Anna Rummo</strong> 
-                   <br>Property Administrator
-                   <br>416-635-5286 ext. 0
-                   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
-                   <br>
-                   
-                   <p class="directory_content"><strong>Manny Yemam</strong> 
-                   <br>Mall Services Coordinator
-                   <br>416-635-5286 ext. 231
-
-                   <br><a href="mailto:ayemam@bentallkennedy.com">ayemam@bentallkennedy.com</a></p>
-                    <br>
-                   
-                   <p class="directory_content"><strong>Security</strong> 
-                   
-                   <br>416-635-5286 ext. 2
-
-                   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
+                   Liberty Development Corporation 
+                   <br>905.731.8687 ext. 240 
+                   <br><a href="mailto:ryan@libertydevelopment.ca" target="_blank">ryan@libertydevelopment.ca</a>
+                   </p>
                     </script>
                 </div>
             </div>
@@ -86,8 +50,8 @@
              </div>
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
-                 <div class="col-sm-12 col-md-12">
-                        <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
+                <div class="col-sm-12 col-md-12">
+                        <p>We value your feedback. Send us your comments or questions by completing the contact form below.</p>
                     </div>
                     <div class="col-sm-6 col-md-6">
                         <label for="name">Name</label>
@@ -136,52 +100,22 @@
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                       <br>
-                     <p class="directory_content"><strong>Kim Mercier</strong> 
-                    <br>Property Manager
-                    <br>416-635-5286 Ext. 223
-                    <br><a href="mailto:kmercier@bentallkennedy.com">kmercier@bentallkennedy.com</a></p>
                     <br>
-                    <p class="directory_content"><strong>Megan McGowan</strong> 
-                   
-                    <br>Manager, Leasing*
-                    <br>905-625-6106
-                    <br><a href="mailto:megan@shrealtycorp.com">megan@shrealtycorp.com</a>
-                     <br>*Sales Representative
-                    </p>
-                    <br>
-                       <p class="directory_content"><strong>O’Neil Johnson</strong> 
-                    <br>Marketing Manager
-                    <br>416-635-5286 ext. 225
-                    <br><a href="mailto:ojohnson@bentallkennedy.com">ojohnson@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Cesar Ramirez-Toscano</strong> 
-                   <br>Operations Supervisor
-                   <br>416-635-5286 ext. 222
-                   <br><a href="mailto:CRamirez-Toscano@bentallkennedy.com" target="_blank">CRamirez-Toscano@bentallkennedy.com</a></p>
-                   <br>
-                   
-                   <p class="directory_content"><strong>Anna Rummo</strong> 
-                   <br>Property Administrator
-                   <br>416-635-5286 ext. 0
-                   <br><a href="mailto:arummo@bentallkennedy.com">arummo@bentallkennedy.com</a></p>
-                   <br>
-                   
-                   <p class="directory_content"><strong>Manny Yemam</strong> 
-                   <br>Mall Services Coordinator
-                   <br>416-635-5286 ext. 231
-
-                   <br><a href="mailto:ayemam@bentallkennedy.com">ayemam@bentallkennedy.com</a></p>
-                    <br>
-                   
-                   <p class="directory_content"><strong>Security</strong> 
-                   
-                   <br>416-635-5286 ext. 2
-
-                   <br><a href="mailto:info@janefinchmall.com">info@janefinchmall.com</a></p>
-                  
-                   
+                    <div id="mm_page_content" class="directory_content"></div>
+                    
                 </script>
+                <!--<p class="directory_content"><strong>Stuart Hathaway</strong> -->
+                <!--    <br>General Manager-->
+                <!--    <br>(905) 878-3900 ext. 202-->
+                <!--    <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>-->
+                <!--    <br>-->
+                <!--   <p class="directory_content"><strong>Ryan Mitz </strong> -->
+                <!--   <br>Vice President, Commercial Leasing and Sales-->
+                <!--   <br>-->
+                <!--   Liberty Development Corporation -->
+                <!--   <br>905.731.8687 ext. 240 -->
+                <!--   <br><a href="mailto:ryan@libertydevelopment.ca" target="_blank">ryan@libertydevelopment.ca</a>-->
+                <!--   </p>-->
             </div>
             
             
@@ -231,11 +165,24 @@
     			e.preventDefault();
     		}
     	});
- $(document).ready(function() {
+    $(document).ready(function() {
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
+            // prefix = get_prefix();
+            var prefix = "//alliston.mallmaverick.com"
+            var pages_json = prefix+"/pages/alliston-contact-us.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_title').html(data.title);
+                // $('#mm_title_phone').html(data.title);
+                // $('#mm_title_location').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    console.log("Sorry. We cant find the page " + pages_json);
+                }
+            });
             $("#loading_screen").hide();
             $("#main_content").show();
         }
