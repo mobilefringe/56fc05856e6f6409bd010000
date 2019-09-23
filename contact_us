@@ -171,7 +171,7 @@
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
             // prefix = get_prefix();
-            var prefix = "//alliston.mallmaverick.com"
+            var prefix = "//janefinch.mallmaverick.com"
             var pages_json = prefix+"/pages/janefinch-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_title').html(data.title);
