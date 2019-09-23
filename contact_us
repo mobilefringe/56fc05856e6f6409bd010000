@@ -22,18 +22,18 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                         <br>
-                    <p class="directory_content"><strong>Stuart Hathaway</strong> 
-                    <br>General Manager
-                    <br>(905) 878-3900 ext. 202
-                    <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
-                    <br>
-                   p class="directory_content"><strong>Ryan Mitz </strong> 
-                   <br>Vice President, Commercial Leasing and Sales
-                   <br>
-                   Liberty Development Corporation 
-                   <br>905.731.8687 ext. 240 
-                   <br><a href="mailto:ryan@libertydevelopment.ca" target="_blank">ryan@libertydevelopment.ca</a>
-                   </p>
+                //     <p class="directory_content"><strong>Stuart Hathaway</strong> 
+                //     <br>General Manager
+                //     <br>(905) 878-3900 ext. 202
+                //     <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
+                //     <br>
+                //   p class="directory_content"><strong>Ryan Mitz </strong> 
+                //   <br>Vice President, Commercial Leasing and Sales
+                //   <br>
+                //   Liberty Development Corporation 
+                //   <br>905.731.8687 ext. 240 
+                //   <br><a href="mailto:ryan@libertydevelopment.ca" target="_blank">ryan@libertydevelopment.ca</a>
+                //   </p>
                     </script>
                 </div>
             </div>
