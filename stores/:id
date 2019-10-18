@@ -353,7 +353,7 @@ background-color: #FFFFFF ;
                     var rendered = Mustache.render(template_html,val);
                     item_rendered.push(rendered);
                 });
-            }else {
+            } else {
                 $.each( collection , function( key, val ) {
                     if (type == "promotions"){
                         var start = moment(val.start_date).tz(getPropertyTimeZone());
@@ -371,6 +371,7 @@ background-color: #FFFFFF ;
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
+                            console.log("store_details", store_details)
                             var store_logo = getImageURL(store_details.store_front_url);
                             console.log("store_logo", store_logo)
                         } else {
