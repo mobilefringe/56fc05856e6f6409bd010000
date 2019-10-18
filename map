@@ -182,7 +182,6 @@ sv<style>
                 $("#storelist_container").hide()
                 Snap.load(getSVGMapURL(), function (f) {
                     $.each( stores, function( key, value ) {
-                        console.log("value.svgmap_region", value.svgmap_region)
                         if (value.svgmap_region != null && typeof(value.svgmap_region)  != 'undefined') {
                             var svg_id = "#" + value.svgmap_region;
                             f.select(svg_id).mouseover(function() {
