@@ -371,8 +371,8 @@ background-color: #FFFFFF ;
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
-                            val.alt_promo_image_url = getImageURL(store_details.store_front_url);
-                            console.log("val.alt_promo_image_url", val.alt_promo_image_url)
+                            var store_logo = getImageURL(store_details.store_front_url);
+                            console.log("store_logo", store_logo)
                         } else {
                             val.alt_promo_image_url = val.promo_image_url_abs;
                         }
