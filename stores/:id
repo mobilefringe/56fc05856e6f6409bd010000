@@ -373,7 +373,12 @@ background-color: #FFFFFF ;
                             var store_details = getStoreDetailsBySlug(slug);
                             console.log("store_details", store_details)
                             var store_logo = store_details.store_front_url_abs;
-                            console.log("store_logo", store_logo)
+                            if ((store_logo).indexOf('missing.png') > -1) {
+                                val.alt_promo_image_url = "http://assets.codecloudapp.com/sites/59aef3106e6f640316400100/image/jpeg/undefined/JMblacklogo.jpg"
+                            } else {
+                                val.alt_promo_image_url = store_logo;
+                            }
+
                         } else {
                             val.alt_promo_image_url = val.promo_image_url_abs;
                         }
