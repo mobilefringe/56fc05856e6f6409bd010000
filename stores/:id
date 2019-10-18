@@ -371,7 +371,6 @@ background-color: #FFFFFF ;
                             var pathArray = window.location.pathname.split( '/' );
                             var slug = pathArray[pathArray.length-1];
                             var store_details = getStoreDetailsBySlug(slug);
-                            console.log("store_details", store_details)
                             var store_logo = store_details.store_front_url_abs;
                             if ((store_logo).indexOf('missing.png') > -1) {
                                 val.alt_promo_image_url = "http://assets.codecloudapp.com/sites/59aef3106e6f640316400100/image/jpeg/undefined/JMblacklogo.jpg"
