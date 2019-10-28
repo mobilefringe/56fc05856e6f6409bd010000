@@ -6646,7 +6646,7 @@ header .container {
   color: #c8c8c8;
 }
 
-.nav-col {
+.navbar .nav li .nav-col {
     color: red !important;
 }
 
