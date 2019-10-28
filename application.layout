@@ -251,13 +251,12 @@
             text-decoration: underline;
         }
         
-        .results_div a,  .results_div a:hover {
+        .results_div a {
             color: #000 !important;
         }
         
         #footer_teasers_wrapper .footer_teaser .results_div a:hover {
             color: #000 !important;
-            text-decoration: underline;
         }
         
         @media (max-width: 767px) {
