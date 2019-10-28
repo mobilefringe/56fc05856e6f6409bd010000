@@ -6644,9 +6644,12 @@ header .container {
   /* -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067); */
   color: #c8c8c8;
-  color: red;
-
 }
+
+.nav-col {
+    color: red !important;
+}
+
 .navbar .nav li.active a,
 .navbar .nav li.active a:hover {
   background-color: transparent;
