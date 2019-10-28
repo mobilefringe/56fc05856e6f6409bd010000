@@ -656,12 +656,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .navbar {
     display: none;
   }
-  
-  .nav-col {
-      color: #000 !important;
-      text-decoration: underline;
-  }
-  
   .table td,
   .table th {
     background-color: #fff !important;
@@ -6649,7 +6643,8 @@ header .container {
   background-color: transparent;
   /* -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067); */
-  color: #c8c8c8;
+  /*color: #c8c8c8;*/
+  color: #928f8f;
 
 }
 .navbar .nav li.active a,
