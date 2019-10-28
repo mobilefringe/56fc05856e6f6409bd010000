@@ -251,9 +251,10 @@
             text-decoration: underline;
         }
         
-        .results_div a {
+        .results_div a,  .results_div a:hover {
             color: #000 !important;
         }
+        
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
