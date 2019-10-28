@@ -140,13 +140,13 @@
             border-color:#303030 !important;
             text-align:center;
             color:white !important;
+            transition: 0.3s ease all;
         }
         .btn-primary:hover{
             background: black !important;
             border-color:#303030 !important;
             text-align:center;
             color: white !important;
-            text-decoration: underline;
         }
         /*menu colors*/
         .navbar .nav li a{
