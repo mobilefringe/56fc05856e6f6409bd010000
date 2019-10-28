@@ -259,6 +259,10 @@
             color: #000 !important;
         }
         
+        .close-search {
+            color: red !important;
+        }
+        
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
