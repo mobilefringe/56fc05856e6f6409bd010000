@@ -656,6 +656,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .navbar {
     display: none;
   }
+  
+  .nav-col {
+      color: #000 !important;
+      text-decoration: underline;
+  }
+  
   .table td,
   .table th {
     background-color: #fff !important;
