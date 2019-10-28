@@ -250,6 +250,10 @@
             color: #ccc !important;
             text-decoration: underline;
         }
+        
+        .results_div a {
+            color: #000 !important;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
