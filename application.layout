@@ -260,7 +260,7 @@
         }
         
         .close-search {
-            color: red !important;
+            color: #666 !important;
         }
         
         @media (max-width: 767px) {
