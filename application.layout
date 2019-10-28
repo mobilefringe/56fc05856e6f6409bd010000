@@ -143,7 +143,7 @@
             transition: 0.3s ease all;
         }
         .btn-primary:hover{
-            background: black !important;
+            background: #666 !important;
             border-color:#303030 !important;
             text-align:center;
             color: white !important;
