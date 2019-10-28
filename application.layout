@@ -154,8 +154,16 @@
             background:black !important;
         }
         .navbar .nav li a:hover,.navbar .nav li a:active{
-            color:#c8c8c8 !important;
+            /*color:#c8c8c8 !important;*/
+            color:white;
+            text-decoration: underline;
         }
+        
+        .navbar .nav .dropdown-menu li a:hover {
+            color: #666 !important;
+            text-decoration: underline;
+        }
+        
         .site_welcome_msg{
             font-size:22px !important;
             margin-top:0 !important;
