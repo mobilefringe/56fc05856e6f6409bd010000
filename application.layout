@@ -145,6 +145,7 @@
             background: black !important;
             border-color:#303030 !important;
             text-align:center;
+            color: white !important;
         }
         /*menu colors*/
         .navbar .nav li a{
