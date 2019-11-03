@@ -30,7 +30,7 @@
           </section>
         </div>
         <div class="right_column">
-            <p class="right_column_header">centre information</p>
+            <h4 class="right_column_header">centre information</h4>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
