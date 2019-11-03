@@ -225,6 +225,9 @@
         .right_column_header {
             color: black ;
         }
+        .lbCloseLink {
+            font-size: 20px;
+        }
         .navbar .nav li a:hover {
             color:#c8c8c8 !important;
         }
