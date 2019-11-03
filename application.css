@@ -195,6 +195,10 @@ th {
   padding: 0;
 }
 
+.lbCloseLink p {
+    font-size: 20px;
+}
+
 .site-map-section{}
 .site-map-section a{
     color:white !important;
