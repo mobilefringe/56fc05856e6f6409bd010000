@@ -3,6 +3,8 @@
 <style>
     .contest_image {
         max-width: 858px;
+        width: unset;
+        height: unset;
     }
     .contest_description{
         margin-bottom:35px;
