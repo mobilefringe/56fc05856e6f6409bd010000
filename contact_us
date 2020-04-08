@@ -13,7 +13,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/57f7bb6f6e6f647835430000/image/jpeg/1459362056000/insidebanner1.jpg"/>
+            <img class="inside_banner_image" alt="banner" src=""/>
             <div class="show_mobile">
                 <p class="right_column_header">centre information</p>
                 <div id="centre_info_container_mobile">
@@ -174,6 +174,13 @@
             });
             $("#loading_screen").hide();
             $("#main_content").show();
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Stores / Contact Us Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            if (bannerImageUrl) {
+                $(".inside_banner_image").attr("src", bannerImageUrl);
+            }
         }
 
         function renderPageData(container, template, collection, type){
