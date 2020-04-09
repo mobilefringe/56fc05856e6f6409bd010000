@@ -34,7 +34,7 @@
                             </a> 
                         </div>
                         <div class="promo_desc_box">
-                            <a href="../promotions/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
+                            <a href="../events/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
                             <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{dates}}</p>
                             
                             <a id="store_btn" style="display:none" href="/stores/{{store_detail_btn}}" class="btn btn-danger center-block btn-lg">View Store Details</a>
